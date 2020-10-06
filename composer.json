@@ -1,0 +1,27 @@
+{
+	"name": "undkonsorten/typo3-site-config-modifier",
+	"type": "typo3-cms-extension",
+	"description": "Adds the new TypoScript modifier := getSiteConfig() for TYPO3",
+	"homepage": "https://www.undkonsorten.com",
+	"license": [
+		"GPL-2.0+"
+	],
+	"keywords": [
+		"site config",
+		"typoscript",
+		"modifier"
+	],
+	"require": {
+		"typo3/cms-core": "^9.5"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "site_config_modifier"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Undkonsorten\\SiteConfigModifier\\": "Classes/"
+		}
+	}
+}
