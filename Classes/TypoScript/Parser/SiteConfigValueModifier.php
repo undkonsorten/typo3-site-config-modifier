@@ -65,7 +65,7 @@ class SiteConfigValueModifier
                 $newValue = $configurationValue;
             }
         }
-        return $newValue;
+        return (string)$newValue;
     }
 
     protected function getSite(): SiteInterface
